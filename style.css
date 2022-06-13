@@ -25,7 +25,8 @@ nav {
     margin-right: 45px;
 }
 
-.nav-left, .nav-right {
+.nav-left,
+.nav-right {
     display: flex;
     align-items: center;
 }
@@ -115,7 +116,8 @@ nav {
     flex-basis: 47%;
 }
 
-.imp-links a, .shortcut-links a {
+.imp-links a,
+.shortcut-links a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -243,7 +245,7 @@ nav {
 .story {
     flex-basis: 18%;
     padding-top: 32%;
-    position: relative;    
+    position: relative;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -268,23 +270,23 @@ nav {
 }
 
 .story1 {
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-1.png);
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-1.png);
 }
 
 .story2 {
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-2.png);
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-2.png);
 }
 
 .story3 {
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-3.png);
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-3.png);
 }
 
 .story4 {
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-4.png);
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-4.png);
 }
 
 .story5 {
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-5.png);
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url(images/status-5.png);
 }
 
 .story.story1 img {
@@ -337,4 +339,23 @@ nav {
     border-bottom: 1px solid #ccc;
     background: transparent;
     resize: none;
+}
+
+.add-post-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-post-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.add-post-links img {
+    width: 20px;
+    margin-right: 10px;
 }
